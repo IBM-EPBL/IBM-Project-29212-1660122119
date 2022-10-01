@@ -1,0 +1,10 @@
+import random
+a=random.randint(1,10)
+b=random.randint(1,10)
+if(a>6):
+    print('Alarm : HIGH TEMP = ',a)
+elif(b>6):
+    print('Alarm : HIGH HUMIDITY = ',b)
+else:
+    print('TEMP : ',a)
+    print('HUMIDITY : ', b)
